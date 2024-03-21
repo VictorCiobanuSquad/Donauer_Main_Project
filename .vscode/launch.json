@@ -1,0 +1,35 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        // Use Ctrl+Space to trigger IntelliSense and get assistance on the supported configurations for AL development.
+{
+    "name": "Publish: Microsoft cloud sandbox",
+    "type": "al",
+    "request": "launch",
+    "environmentType": "Sandbox",
+    "environmentName": "DSS-SUPPORT",
+    "startupObjectId": 22,
+    "startupObjectType": "Page",
+    //"schemaUpdateMode": "Synchronize",
+    "breakOnError": "All",
+    "breakOnRecordWrite": "None",
+    "launchBrowser": true,
+    "enableSqlInformationDebugger": true,
+    "enableLongRunningSqlStatements": true,
+    "longRunningSqlStatementsThreshold": 500,
+    "numberOfSqlStatements": 10,
+    "tenant": "de81c6cf-9f7c-42fa-8dd1-7fd8444dbaa1"
+}
+,
+{
+    "name": "snapshotInitialize: Microsoft production cloud",
+    "type": "al",
+    "request": "snapshotInitialize",
+    "environmentType": "Production",
+    "environmentName": "production",
+    "breakOnNext": "WebClient",
+    "executionContext": "DebugAndProfile",
+    "tenant": "554c90a6-d382-4d40-8f41-1cda63bb1c7b"
+}
+    ]
+}

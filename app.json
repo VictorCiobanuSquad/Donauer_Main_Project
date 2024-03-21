@@ -1,0 +1,65 @@
+{
+  "id": "97d38237-4cd2-486e-bc5f-4cced3dc20c1",
+  "name": "Donauer_App",
+  "publisher": "Squad IT",
+  "version": "1.0.0.0",
+  "brief": "",
+  "description": "",
+  "privacyStatement": "",
+  "EULA": "",
+  "help": "",
+  "url": "",
+  "logo": "",
+  "dependencies": [
+{
+  "id": "b3314479-20b7-469f-bcc5-4297f6182876",
+  "name": "myB365 DSS API",
+  "publisher": "myPartner - Consultoria Informática, S.A.",
+  "version": "1.0.5.0"
+},
+
+{
+  "id": "794ecb73-7b7b-4578-b1fd-68ed2a5ae55d",
+  "name": "myB365 DSS Standard Statement",
+  "publisher": "myPartner - Consultoria Informática, S.A.",
+  "version": "1.0.1.0"
+},
+{
+  "id": "10fdc462-b5ea-4437-b58e-ba5ca7eccf22",
+  "name": "myB365 DSS Alternative Whse. - Shipment",
+  "publisher": "myPartner - Consultoria Informática, S.A.",
+  "version": "1.0.4.0"
+},
+{
+  "id": "f7d1d1d8-be08-4fec-af58-ff534f10b3ad",
+  "name": "myB365 DSS Customer Detailed Aging",
+  "publisher": "myPartner - Consultoria Informática, S.A.",
+  "version": "1.0.1.0"
+},
+{
+  "id": "851326a4-7dbf-4f12-aebc-c2a627df9ce1",
+  "name": "myB365 DSS Page Fields",
+  "publisher": "myPartner - Consultoria Informática, S.A.",
+  "version": "1.0.24.0"
+}
+
+  ],
+  "screenshots": [],
+  "platform": "1.0.0.0",
+  "application": "23.0.0.0",
+  "idRanges": [
+    {
+      "from": 50000,
+      "to": 50149
+    }
+  ],
+  "resourceExposurePolicy": {
+    "allowDebugging": true,
+    "allowDownloadingSource": true,
+    "includeSourceInSymbolFile": true
+  },
+  "runtime": "12.0",
+  "features": [
+    "NoImplicitWith","TranslationFile"
+  ]
+}
